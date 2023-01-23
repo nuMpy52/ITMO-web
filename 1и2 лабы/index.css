@@ -1,0 +1,321 @@
+body, html
+{
+    font-size: 16px;
+}
+.block
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 724px;
+    height: 600px;
+    /*border: 1px solid black;*/
+}
+.header
+{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 8%;
+    float: left;
+}
+.name
+{
+    float: left;
+    font-weight: bold;
+    width: 87%;
+    height: 100%;
+    background: gray;
+}
+.logo
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 27%;
+    height: 80%;
+    background: white;
+}
+.logo_img
+{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.settings
+{
+    text-align: center;
+    border-left: 1px solid black;
+    float: right;
+    width: 12.8%;
+    height: 100%;
+    background: gray;
+    line-height: 50px;
+}
+.panel
+{
+    float: left;
+    border-right: 1px solid black;
+    width: 25%;
+    height: 91.8%;
+    background: lightgrey;
+}
+ul{
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin-top: 10px;
+
+}
+li
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.content
+{
+    float: right;
+    width: calc(74.8% + 0.3px);
+    height: 91.8%;
+    background: lightgrey;
+}
+.top_content
+{
+    width: 100%;
+    height: 4.8%;
+    background: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.top_content_left
+{
+    text-align: left;
+    float: left;
+    width: 49.9%;
+    height: 100%;
+    line-height: 25px;
+}
+.top_content_right
+{
+    text-align: right;
+    float: right;
+    width: 49.9%;
+    height: 100%;
+    line-height: 25px;
+}
+.left_content
+{
+    width: 40%;
+    height:95.2%;
+    float: left;
+}
+.photo
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+    height: 36%;
+    background: gray;
+}
+.avatar
+{
+    width: 100%;
+    height: 100%;
+}
+.action
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+    height: 16%;
+}
+.action_w
+{
+    width: 100%;
+    height: 44.9%;
+}
+.message
+{
+    width: 48%;
+    height: 100%;
+    float: left;
+    background: gray;
+    text-align: center;
+}
+.add
+{
+    width: 48%;
+    height: 100%;
+    float: right;
+    background: gray;
+    text-align: center;
+}
+.subscribers
+{
+    height: 20%;
+    text-align: center;
+}
+.news
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    width: 70%;
+    height: 25%;
+    background: gray;
+    text-align: center;
+}
+.friends
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+    height: 18%;
+    background-color: gray;
+}
+.name_f
+{
+    background: white;
+    width: 100%;
+    height: 25%;
+}
+.right_content
+{
+    width: 59.8%;
+    height:94.5%;
+    float: right;
+}
+.status
+{
+    width: 90%;
+    height: 5%;
+    /*border: 1px solid black;*/
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+    line-height: 25px;
+}
+.inf
+{
+    width: 90%;
+    height: 18%;
+    /*border: 1px solid black;*/
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.inf_a
+{
+    width: 100%;
+    height: 70%;
+    /*border: 1px solid black;*/
+    margin-top: 0;
+}
+p
+{
+    margin: 0;
+}
+.more
+{
+    text-align: center;
+}
+.grid
+{
+    border: 1px solid black;
+    width: 15%;
+    height: 30px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.grid-big
+{
+    border: 1px solid black;
+    width: 25%;
+    height: 65px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.border_bottom
+{
+    border-bottom: 1px solid black;
+}
+.border_left
+{
+    border-left: 1px solid black;
+}
+.border_right
+{
+    border-right: 1px solid black;
+}
+.border_top
+{
+    border-top: 1px solid black;
+}
+.border_all
+{
+    border: 1px solid black;
+}
+.posts
+{
+    height: 93%;
+    background: gray;
+}
+.posts_1
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+    height: 230px;
+}
+.post-grid
+{
+    height: 50%;
+    width: 100%;
+}
+.posts_name
+{
+    background-color: white;
+    height: 7%;
+}
+.search
+{
+    float: right;
+    background: gray;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+.post-info
+{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.post-body
+{
+    height: 50px;
+    width: 75%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10%;
+}
