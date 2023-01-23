@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <id>1</id>
+    <name>Ян Петров</name>
+    <group>32201</group>
+    <isu>345666</isu>
+  </student>
+
+  <student>
+    <id>2</id>
+    <name>Иван Иванов</name>
+    <group>2540</group>
+    <isu>168999</isu>
+  </student>
+
+  <student>
+    <id>6</id>
+    <name>Никита Ломтев</name>
+    <group>32201</group>
+    <isu>339022</isu>
+  </student>
+</students>
