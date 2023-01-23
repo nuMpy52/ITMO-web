@@ -1,0 +1,79 @@
+body
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+.buttons
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+input
+{
+    height: 20px;
+}
+.create
+{
+
+}
+.create_table
+{
+    width: 50%;
+    padding-right: 40%;
+    border: 1px black;
+}
+.add_row
+{
+    width: 50%;
+    padding-right: 40%;
+    border: 1px black;
+}
+form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.delete_row
+{
+    width: 50%;
+    padding-right: 40%;
+    border: 1px black;
+}
+.write_number
+{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+.table
+{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ACDBE2;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, th
+{
+    border: dashed 1px black ;
+    text-align: center;
+}

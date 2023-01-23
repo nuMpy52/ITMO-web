@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Cоздание таблицы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons">
+        <div class="create">
+            Чтобы создать таблицу нажмите:
+            <input class="create_table" id="create_table"  value="Создать таблицу" onclick="create_table()" type="button">
+        </div>
+        <div class="create">
+            Чтобы добавить строку нажмите:
+            <input class="add_row" id="add_row"  value="Добавить строку" onclick="create_row()" type="button">
+        </div>
+        <div class="create">
+            Чтобы удалить строку введите число и нажмите:
+            <form class="form" id="form">
+                <input class="delete_row" id="delete_row" value="Удалить строку!" onclick="del_row()" type="reset">
+                <label for="write_number"><input class="write_number" name="write_number" id="write_number"  placeholder="Введите номер" type="text"  pattern="^[ 0-9]+$"></label>
+            </form>
+        </div>
+    </div>
+    <div  class="table" id="table"></div>
+    <script src="main.js"></script>
+</body>
+</html>
